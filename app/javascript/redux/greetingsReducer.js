@@ -1,6 +1,6 @@
-const GET_GREETINGS = 'redux/greetings/greetings.js/GET_GREETINGS';
+const GET_GREETINGS = 'GET_GREETINGS';
 
-export default function greetingsReducer(state = [], action = {}) {
+const greetingsReducer = (state = [], action = {}) => {
   switch (action.type) {
     case GET_GREETINGS:
       return action.payload;
@@ -9,11 +9,11 @@ export default function greetingsReducer(state = [], action = {}) {
   }
 }
 
-function getGreeting() {
+const getGreeting = () => {
   return async (dispatch) => {
-    const response = await fetch('/greeting');
+    const response = await fetch('/greetings');
     const greetings = await response.json();
-    
+
     dispatch({
       type: GET_GREETINGS,
       payload: greetings,
@@ -21,4 +21,5 @@ function getGreeting() {
   };
 }
 
+export default greetingsReducer;
 export { getGreeting };
