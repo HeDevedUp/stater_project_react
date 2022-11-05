@@ -21,7 +21,7 @@ To get a local copy up and running follow these simple example steps.
 
  **Step 1: Clone this repo locally using git**
 - Create a folder in your local machine
-- Open your console in your folder and run this command: `git clone https://github.com/NduatiKagiri/hello-rails-react.git`
+- Open your console in your folder and run this command: `git clone https://github.com/Hedevedup`
 - Alternatively, you can just download the complete zip file and extract the folder in your directory
 
  **Step 2: Run in your project directory**
@@ -30,11 +30,11 @@ To get a local copy up and running follow these simple example steps.
 - Run `rails server` to create a server for the project
 
 ## Authors
-:bust_in_silhouette: **NduatiKagiri**
+:bust_in_silhouette: **uzoma jesse**
 
-GitHub: https://github.com/NduatiKagiri
-Twitter: https://twitter.com/NduatiKagiri
-LinkedIn: https://linkedin.com/in/nduati-kagiri/
+GitHub: https://github.com/HeDevedUp
+Twitter: https://twitter.com/devtochi
+LinkedIn: https://linkedin.com/in/uzomajesse/
 
 ## :handshake: Contributing
 Contributions, issues, and feature requests are welcome!
